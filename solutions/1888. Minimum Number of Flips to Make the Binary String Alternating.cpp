@@ -1,28 +1,36 @@
 class Solution {
 public:
-    int minFlips(string s) {
-        int n = s.length();
-        int odd[n + 1];
-        int even[n + 1];
-        odd[0] = 0;
-        even[0] = 0;
-        for(int i = 0; i < n; i++){
-            if (i % 2 != 0){
-                odd[i + 1] = odd[i] + (s[i] == '1');
-                even[i + 1] = even[i] +(s[i] == '0');
+    
+    int mf(string &s, int n){
+        int r1, r2;
+        r1 = r2 = 0;
+        int res = INT_MAX;
+        vector<vector<int>> arr(s.size(), vector<int>(2, 0));
+        for(int i = 0;i<s.size();i++){
+            if(i%2 == 0){
+                if(s[i] == '0')r1++;
+                if(s[i] == '1')r2++;
             }else{
-                odd[i + 1] = odd[i] +(s[i] == '0' );
-                even[i + 1] = even[i] + (s[i] == '1');
+                if(s[i] == '1')r1++;
+                if(s[i] == '0')r2++;
             }
-        }
-        int res = min(odd[n], even[n]);
-        for(int i = 0; i < n; i++){
-            if (n % 2 != 0){
-                res = min(res,odd[n] - odd[i + 1] + even[i + 1]);
-                res = min(res, even[n] - even[i + 1] + odd[i + 1]);
+            arr[i][0] = r1;
+            arr[i][1] = r2;
+            
+            if( i + 1 >= n){
+                if(i == n-1){
+                    res = min(res,min(r1, r2));
+                }else
+                    res = min(res,min(r1 - arr[i-n][0], r2 - arr[i-n][1]));
             }
         }
         return res;
-        
+    }
+    
+    
+    int minFlips(string s) {
+        int n = s.size();
+        s = s + s;
+        return mf(s, n);
     }
 };
