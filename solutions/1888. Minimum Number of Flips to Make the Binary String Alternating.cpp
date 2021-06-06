@@ -1,3 +1,8 @@
+        return res;
+        
+    }
+};
+/*
 class Solution {
 public:
     
@@ -10,27 +15,28 @@ public:
             if(i%2 == 0){
                 if(s[i] == '0')r1++;
                 if(s[i] == '1')r2++;
-            }else{
+            }else{
                 if(s[i] == '1')r1++;
                 if(s[i] == '0')r2++;
-            }
+            }
             arr[i][0] = r1;
             arr[i][1] = r2;
             
             if( i + 1 >= n){
                 if(i == n-1){
                     res = min(res,min(r1, r2));
-                }else
+                }else
                     res = min(res,min(r1 - arr[i-n][0], r2 - arr[i-n][1]));
-            }
-        }
+            }
+        }
         return res;
-    }
+    }
     
     
     int minFlips(string s) {
         int n = s.size();
         s = s + s;
         return mf(s, n);
-    }
+    }
 };
+*/
