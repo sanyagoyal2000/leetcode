@@ -11,3 +11,4 @@
 |1895|[ Largest Magic Square](https://leetcode.com/problems/largest-magic-square/)|[C++](./solutions/1895.%20Largest%20Magic%20Square.cpp)|168 ms|
 |1926|[ Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[C++](./solutions/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze.cpp)|152 ms|
 |1927|[ Sum Game](https://leetcode.com/problems/sum-game/)|[C++](./solutions/1927.%20Sum%20Game.cpp)|16 ms|
+|1928|[ Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)|[C++](./solutions/1928.%20Minimum%20Cost%20to%20Reach%20Destination%20in%20Time.cpp)||
