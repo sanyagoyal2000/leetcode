@@ -12,4 +12,5 @@
 |1926|[ Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[C++](./solutions/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze.cpp)|152 ms|
 |1927|[ Sum Game](https://leetcode.com/problems/sum-game/)|[C++](./solutions/1927.%20Sum%20Game.cpp)|16 ms|
 |1928|[ Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)|[C++](./solutions/1928.%20Minimum%20Cost%20to%20Reach%20Destination%20in%20Time.cpp)||
+|1936|[ Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/)|[C++](./solutions/1936.%20Add%20Minimum%20Number%20of%20Rungs.cpp)|92 ms|
 |1938|[ Maximum Genetic Difference Query](https://leetcode.com/problems/maximum-genetic-difference-query/)|[C++](./solutions/1938.%20Maximum%20Genetic%20Difference%20Query.cpp)|804 ms|
