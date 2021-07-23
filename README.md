@@ -15,5 +15,5 @@
 |1931|[ Painting a Grid With Three Different Colors](https://leetcode.com/problems/painting-a-grid-with-three-different-colors/)|[C++](./solutions/1931.%20Painting%20a%20Grid%20With%20Three%20Different%20Colors.cpp)|100 ms|
 |1932|[ Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst/)|[C++](./solutions/1932.%20Merge%20BSTs%20to%20Create%20Single%20BST.cpp)|788 ms|
 |1936|[ Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/)|[C++](./solutions/1936.%20Add%20Minimum%20Number%20of%20Rungs.cpp)|92 ms|
-|1937|[ Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/)|[C++](./solutions/1937.%20Maximum%20Number%20of%20Points%20with%20Cost.cpp)|252 ms|
+|1937|[ Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/)|[C++](./solutions/1937.%20Maximum%20Number%20of%20Points%20with%20Cost.cpp)|308 ms|
 |1938|[ Maximum Genetic Difference Query](https://leetcode.com/problems/maximum-genetic-difference-query/)|[C++](./solutions/1938.%20Maximum%20Genetic%20Difference%20Query.cpp)|804 ms|
