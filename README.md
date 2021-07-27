@@ -4,6 +4,7 @@
 |---| ----- | -------- | ------- |
 |4|[ Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[C++](./solutions/4.%20Median%20of%20Two%20Sorted%20Arrays.cpp)|32 ms|
 |31|[ Next Permutation](https://leetcode.com/problems/next-permutation/)|[C++](./solutions/31.%20Next%20Permutation.cpp)|0 ms|
+|33|[ Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[C++](./solutions/33.%20Search%20in%20Rotated%20Sorted%20Array.cpp)|4 ms|
 |34|[ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[C++](./solutions/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp)|8 ms|
 |54|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[C++](./solutions/54.%20Spiral%20Matrix.cpp)|0 ms|
 |59|[ Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[C++](./solutions/59.%20Spiral%20Matrix%20II.cpp)|0 ms|
