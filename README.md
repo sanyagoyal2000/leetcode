@@ -6,6 +6,7 @@
 |8|[ String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](./solutions/8.%20String%20to%20Integer%20(atoi).cpp)|0 ms|
 |12|[ Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[C++](./solutions/12.%20Integer%20to%20Roman.cpp)|8 ms|
 |13|[ Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[C++](./solutions/13.%20Roman%20to%20Integer.cpp)|20 ms|
+|21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](./solutions/21.%20Merge%20Two%20Sorted%20Lists.cpp)|8 ms|
 |28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[C++](./solutions/28.%20Implement%20strStr().cpp)|1356 ms|
 |31|[ Next Permutation](https://leetcode.com/problems/next-permutation/)|[C++](./solutions/31.%20Next%20Permutation.cpp)|0 ms|
 |33|[ Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[C++](./solutions/33.%20Search%20in%20Rotated%20Sorted%20Array.cpp)|4 ms|
