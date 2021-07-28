@@ -3,6 +3,7 @@
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
 |4|[ Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[C++](./solutions/4.%20Median%20of%20Two%20Sorted%20Arrays.cpp)|32 ms|
+|8|[ String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](./solutions/8.%20String%20to%20Integer%20(atoi).cpp)|0 ms|
 |12|[ Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[C++](./solutions/12.%20Integer%20to%20Roman.cpp)|8 ms|
 |13|[ Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[C++](./solutions/13.%20Roman%20to%20Integer.cpp)|20 ms|
 |28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[C++](./solutions/28.%20Implement%20strStr().cpp)|1356 ms|
