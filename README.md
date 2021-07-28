@@ -2,6 +2,7 @@
 
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
+|2|[ Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C++](./solutions/2.%20Add%20Two%20Numbers.cpp)|16 ms|
 |4|[ Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[C++](./solutions/4.%20Median%20of%20Two%20Sorted%20Arrays.cpp)|32 ms|
 |8|[ String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](./solutions/8.%20String%20to%20Integer%20(atoi).cpp)|0 ms|
 |12|[ Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[C++](./solutions/12.%20Integer%20to%20Roman.cpp)|8 ms|
