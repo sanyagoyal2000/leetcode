@@ -3,6 +3,7 @@
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
 |4|[ Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[C++](./solutions/4.%20Median%20of%20Two%20Sorted%20Arrays.cpp)|32 ms|
+|12|[ Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[C++](./solutions/12.%20Integer%20to%20Roman.cpp)|8 ms|
 |28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[C++](./solutions/28.%20Implement%20strStr().cpp)|1356 ms|
 |31|[ Next Permutation](https://leetcode.com/problems/next-permutation/)|[C++](./solutions/31.%20Next%20Permutation.cpp)|0 ms|
 |33|[ Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[C++](./solutions/33.%20Search%20in%20Rotated%20Sorted%20Array.cpp)|4 ms|
