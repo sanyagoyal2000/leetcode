@@ -18,6 +18,7 @@
 |67|[ Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./solutions/67.%20Add%20Binary.cpp)|4 ms|
 |69|[ Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[C++](./solutions/69.%20Sqrt(x).cpp)|0 ms|
 |94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.cpp)|4 ms|
+|143|[ Reorder List](https://leetcode.com/problems/reorder-list/)|[C++](./solutions/143.%20Reorder%20List.cpp)|32 ms|
 |144|[ Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C++](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.cpp)|8 ms|
 |151|[ Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[C++](./solutions/151.%20Reverse%20Words%20in%20a%20String.cpp)|4 ms|
 |153|[ Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C++](./solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)|4 ms|
