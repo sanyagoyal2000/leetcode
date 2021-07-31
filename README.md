@@ -43,6 +43,7 @@
 |997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[C++](./solutions/997.%20Find%20the%20Town%20Judge.cpp)|448 ms|
 |1094|[ Car Pooling](https://leetcode.com/problems/car-pooling/)|[C++](./solutions/1094.%20Car%20Pooling.cpp)|12 ms|
 |1424|[ Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|[C++](./solutions/1424.%20Diagonal%20Traverse%20II.cpp)|340 ms|
+|1882|[ Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|[C++](./solutions/1882.%20Process%20Tasks%20Using%20Servers.cpp)|404 ms|
 |1888|[ Minimum Number of Flips to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)|[C++](./solutions/1888.%20Minimum%20Number%20of%20Flips%20to%20Make%20the%20Binary%20String%20Alternating.cpp)|692 ms|
 |1895|[ Largest Magic Square](https://leetcode.com/problems/largest-magic-square/)|[C++](./solutions/1895.%20Largest%20Magic%20Square.cpp)|168 ms|
 |1926|[ Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[C++](./solutions/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze.cpp)|152 ms|
