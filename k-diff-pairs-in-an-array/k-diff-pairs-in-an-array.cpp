@@ -1,25 +1,20 @@
 class Solution {
 public:
-    
-        
-       int findPairs(vector<int>& nums, int k) {
-        if(k<0){return 0;}
-        unordered_map<int,int> mp;      
-        for(int i = 0; i<nums.size(); i++){
-            mp[nums[i]]++;
+    int findPairs(vector<int>& nums, int k) {
+        int res = 0;
+        // edge case k == 0, we hunt for duplicates
+        if (!k) {
+            unordered_map<int, int> frequencies;
+            for (int n: nums) frequencies[n]++;
+            for (auto e: frequencies) if (e.second > 1) res++;
         }
-       int count = 0;
-       for(auto x : mp){
-           int diff = x.first - k;
-           if(mp.find(diff)!=mp.end()){
-               if(diff==x.first and x.second>1){
-                   count++;
-               }else if(diff!=x.first and x.second>=1){
-                   count++;
-               }
-           }
-       }
-        return count;
-       
+        // all the other cases
+        else {
+            unordered_set<int> seen(begin(nums), end(nums));
+            for (int n: seen) {
+                res += seen.find(k + n) != end(seen);
+            }
+        }
+        return res;
     }
 };
