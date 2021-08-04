@@ -26,6 +26,7 @@
 |92|[ Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[C++](./solutions/92.%20Reverse%20Linked%20List%20II.cpp)|0 ms|
 |94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.cpp)|4 ms|
 |105|[ Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[C++](./solutions/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.cpp)|64 ms|
+|113|[ Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[C++](./solutions/113.%20Path%20Sum%20II.cpp)|12 ms|
 |118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[C++](./solutions/118.%20Pascal's%20Triangle.cpp)|0 ms|
 |134|[ Gas Station](https://leetcode.com/problems/gas-station/)|[C++](./solutions/134.%20Gas%20Station.cpp)|4 ms|
 |143|[ Reorder List](https://leetcode.com/problems/reorder-list/)|[C++](./solutions/143.%20Reorder%20List.cpp)|32 ms|
