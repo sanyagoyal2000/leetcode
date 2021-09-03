@@ -36,6 +36,7 @@
 |151|[ Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[C++](./solutions/151.%20Reverse%20Words%20in%20a%20String.cpp)|4 ms|
 |153|[ Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C++](./solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)|4 ms|
 |179|[ Largest Number](https://leetcode.com/problems/largest-number/)|[C++](./solutions/179.%20Largest%20Number.cpp)||
+|190|[ Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[C++](./solutions/190.%20Reverse%20Bits.cpp)|3 ms|
 |207|[ Course Schedule](https://leetcode.com/problems/course-schedule/)|[C++](./solutions/207.%20Course%20Schedule.cpp)|24 ms|
 |273|[ Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|[C++](./solutions/273.%20Integer%20to%20English%20Words.cpp)|0 ms|
 |496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[C++](./solutions/496.%20Next%20Greater%20Element%20I.cpp)|4 ms|
