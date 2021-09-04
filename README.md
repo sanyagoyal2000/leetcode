@@ -62,3 +62,4 @@
 |1936|[ Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/)|[C++](./solutions/1936.%20Add%20Minimum%20Number%20of%20Rungs.cpp)|92 ms|
 |1937|[ Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/)|[C++](./solutions/1937.%20Maximum%20Number%20of%20Points%20with%20Cost.cpp)|308 ms|
 |1938|[ Maximum Genetic Difference Query](https://leetcode.com/problems/maximum-genetic-difference-query/)|[C++](./solutions/1938.%20Maximum%20Genetic%20Difference%20Query.cpp)|804 ms|
+|1994|[ The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets/)|[C++](./solutions/1994.%20The%20Number%20of%20Good%20Subsets.cpp)|590 ms|
