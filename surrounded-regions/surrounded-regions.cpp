@@ -1,63 +1,57 @@
-class Solution 
-{
+class Solution {
 public:
-    void dfs(vector<vector<char>>& board,int i,int j)
-    {
-        if(i<0 || j<0 || i>=board.size() || j>=board[0].size() || board[i][j]!='O')
-        {
-            return;
+    void solve(vector<vector<char>>& board) {
+        if(!board.size()) return;
+        
+        int rows = board.size();
+        int cols = board[0].size();
+        
+        // Go through boarder to find 'O'
+        for(int i=0; i<rows; ++i) {
+            BFS(board, i, 0, rows, cols);
+            if(cols>1) BFS(board, i, cols-1, rows, cols);
         }
-        board[i][j]='#';
-        dfs(board,i-1,j);
-        dfs(board,i+1,j);
-        dfs(board,i,j-1);
-        dfs(board,i,j+1);
-    }
-    void solve(vector<vector<char>>& board) 
-    {
-        // traverse through all the boundaries
-        for(int i=0;i<board.size();i++)
-        {
-            if(board[i][0]=='O')
-            {
-                dfs(board,i,0);
-            }
-        }
-        for(int i=0;i<board[0].size();i++)
-        {
-            if(board[board.size()-1][i]=='O')
-            {
-                dfs(board,board.size()-1,i);
-            }
-        }
-        for(int i=0;i<board.size();i++)
-        {
-            if(board[i][board[0].size()-1]=='O')
-            {
-                dfs(board,i,board[0].size()-1);
-            }
-        }
-        for(int i=0;i<board[0].size();i++)
-        {
-            if(board[0][i]=='O')
-            {
-                dfs(board,0,i);
-            }
+        for(int i=1; i<cols-1; ++i) {
+            BFS(board, 0, i, rows, cols);
+            if(rows>1) BFS(board, rows-1, i, rows, cols);
         }
         
-        // now traverse through all the cells of the matrix and convert 'O' to 'X' and '#' to 'O'
-        for(int i=0;i<board.size();i++)
-        {
-            for(int j=0;j<board[0].size();j++)
-            {
-                if(board[i][j]=='O')
-                {
-                    board[i][j]='X';
-                }
-                else if(board[i][j]=='#')
-                {
-                    board[i][j]='O';
-                }
+        // Go through whole board and mark 'O' as 'X', 'D' as 'O'
+        for(int i=0; i<rows; ++i) {
+            for(int j=0; j<cols; ++j) {
+                if(board[i][j]=='O') board[i][j] = 'X';
+                else if(board[i][j]=='D') board[i][j] = 'O';
+            }
+        }
+    }
+    
+    void BFS(vector<vector<char>>& board, int i, int j, int rows, int cols) {
+        if(board[i][j]!='O') return;
+        else board[i][j] = 'D';
+        
+        queue<pair<int, int>> myQueue;
+        myQueue.push(make_pair(i, j));
+        
+        while(!myQueue.empty()) {
+            int x = myQueue.front().first;
+            int y = myQueue.front().second;
+            myQueue.pop();
+            
+            if(x+1<rows && board[x+1][y]=='O') {
+                myQueue.push(make_pair(x+1, y));
+                board[x+1][y] = 'D';
+            }
+            if(x-1>0 && board[x-1][y]=='O') {
+                myQueue.push(make_pair(x-1, y));
+                board[x-1][y] = 'D';
+            }
+            if(y+1<cols && board[x][y+1]=='O') {
+                myQueue.push(make_pair(x, y+1));
+                board[x][y+1] = 'D';
+            }
+            if(y-1>0 && board[x][y-1]=='O') {
+                myQueue.push(make_pair(x, y-1));
+                board[x][y-1] = 'D';
             }
         }
     }
