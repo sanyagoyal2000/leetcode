@@ -5,6 +5,7 @@
 |2|[ Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C++](./solutions/2.%20Add%20Two%20Numbers.cpp)|16 ms|
 |4|[ Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[C++](./solutions/4.%20Median%20of%20Two%20Sorted%20Arrays.cpp)|32 ms|
 |8|[ String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](./solutions/8.%20String%20to%20Integer%20(atoi).cpp)|0 ms|
+|10|[ Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[C++](./solutions/10.%20Regular%20Expression%20Matching.cpp)|N/A|
 |12|[ Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[C++](./solutions/12.%20Integer%20to%20Roman.cpp)|8 ms|
 |13|[ Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[C++](./solutions/13.%20Roman%20to%20Integer.cpp)|20 ms|
 |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](./solutions/21.%20Merge%20Two%20Sorted%20Lists.cpp)|8 ms|
