@@ -1,52 +1,83 @@
-#define vi vector<int>
-#define ll long long
-
-ll mod = 1e9+7;
 class Solution {
-public:
-    int numberOfGoodSubsets(vi& nums) {
+public:     
+    const int mod = 1e9+7;
+    
+    int primes[11] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 27, 29};
+    
+    int numberOfGoodSubsets(vector<int>& nums) {        
+        int cnts[31] = {};
+        bool showed[31] = {};
+        int factorstmp[31] = {};
         
-        unordered_map<int, int>m;
-        int ones = 0, res=0;
-        
-        int prime[10] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29};
-        
-        vi dp(1<<10, 0), tmp;
-        dp[0] = 1; //everything is absent
-        
-        for(auto x:nums){
-            if(x%4==0 || x%9==0 || x%25==0) continue;  //exclude square terms
-            if(x==1) ones++;                           //special dealing
-            else m[x]++;
+        for (int i = 0; i < nums.size(); i++){
+            int n = nums[i];
+
+            if (showed[n]) {
+                if (cnts[n]) cnts[n]++;
+                
+                continue;
+            }
+            
+            showed[n] = true;
+            
+            int mask = 0;
+            for (int j = 0; j < 11; j++) {
+                if (!(n%primes[j])) {
+                    n /= primes[j];
+                    if (!(n%primes[j])) goto next;
+                    
+                    mask |= (1<<j);
+                }
+                
+                if (n == 1) break;
+            }
+            cnts[nums[i]]++;
+            factorstmp[nums[i]] = mask;
+            
+            next:;
         }
         
-        for(auto x:m){
-            
-            //find current mask
-            int curr_mask = 0;
-            for(int i=0; i<10; i++)
-                if(x.first%prime[i]==0) 
-                    curr_mask+=(1<<i);
-            
-            //state updates
-            tmp.assign(1<<10, 0);
-            for(int mask=0; mask<(1<<10); mask++)
-                if( (curr_mask & mask) ==0)
-                    tmp[mask | curr_mask] = ((ll) dp[mask]*(ll) x.second)%mod;  //x.second is frequency
-            
-            //add tmp to dp
-            for(int i=0; i<(1<<10); i++)
-                dp[i] = (dp[i]+tmp[i] )%mod;
-            
+        vector<int> factors;
+        vector<int> numsCnts;
+        
+        for (int i = 2; i < 31; i++){
+            if (cnts[i]) {
+                factors.push_back(factorstmp[i]);
+                numsCnts.push_back(cnts[i]);
+            }
         }
         
-        //remember to exclude empty set
-        for(int i=1; i<(1<<10); i++) res =(res+dp[i] )%mod;
+        vector<int> dp[numsCnts.size()];
+        for (int i = 0; i < numsCnts.size(); i++)
+            dp[i].resize(2048, -1);
         
-        //deal with ones
-        while(ones--){
-            res = ( (ll)res*2LL)%mod;
+        if (cnts[1]){
+            long long sum = 0;
+            for (int i = 1; i <= cnts[1]; i++) sum = ((sum<<1)+1)%mod;
+            
+            return (sum+1)*dfs(0, 0, factors, numsCnts, dp)%mod;
         }
-        return res;
+        
+        return dfs(0, 0, factors, numsCnts, dp);
     }
+    
+    long long dfs(int i, int mask, vector<int>& factors, vector<int>& numsCnts, vector<int> dp[]){
+        if (i == numsCnts.size()) return mask != 0;
+        
+        if (dp[i][mask] != -1) return dp[i][mask];
+        
+        long long res = dfs(i+1, mask, factors, numsCnts, dp);
+        int maskcpy = mask;
+        
+        for (int j = 0; j < 11; j++){
+            if ((factors[i]>>j)&1){
+                if ((mask>>j)&1) return dp[i][mask] = res;
+            
+                maskcpy |= (1<<j);
+            }
+        }
+        
+        return dp[i][mask] = (res+(numsCnts[i]*dfs(i+1, maskcpy, factors, numsCnts, dp)%mod))%mod;
+    }
+    
 };
