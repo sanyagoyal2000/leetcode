@@ -47,6 +47,7 @@
 |628|[ Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[C++](./solutions/628.%20Maximum%20Product%20of%20Three%20Numbers.cpp)|56 ms|
 |883|[ Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|[C++](./solutions/883.%20Projection%20Area%20of%203D%20Shapes.cpp)|8 ms|
 |885|[ Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[C++](./solutions/885.%20Spiral%20Matrix%20III.cpp)|16 ms|
+|910|[ Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[C++](./solutions/910.%20Smallest%20Range%20II.cpp)|26 ms|
 |997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[C++](./solutions/997.%20Find%20the%20Town%20Judge.cpp)|448 ms|
 |1094|[ Car Pooling](https://leetcode.com/problems/car-pooling/)|[C++](./solutions/1094.%20Car%20Pooling.cpp)|12 ms|
 |1235|[ Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[C++](./solutions/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.cpp)|144 ms|
