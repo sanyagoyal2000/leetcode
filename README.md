@@ -22,6 +22,7 @@
 |66|[ Plus One](https://leetcode.com/problems/plus-one/)|[C++](./solutions/66.%20Plus%20One.cpp)|N/A|
 |67|[ Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./solutions/67.%20Add%20Binary.cpp)|4 ms|
 |69|[ Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[C++](./solutions/69.%20Sqrt(x).cpp)|0 ms|
+|70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./solutions/70.%20Climbing%20Stairs.cpp)|0 ms|
 |80|[ Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[C++](./solutions/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.cpp)|8 ms|
 |83|[ Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[C++](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.cpp)|8 ms|
 |86|[ Partition List](https://leetcode.com/problems/partition-list/)|[C++](./solutions/86.%20Partition%20List.cpp)|8 ms|
