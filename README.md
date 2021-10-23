@@ -47,6 +47,7 @@
 |190|[ Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[C++](./solutions/190.%20Reverse%20Bits.cpp)|3 ms|
 |207|[ Course Schedule](https://leetcode.com/problems/course-schedule/)|[C++](./solutions/207.%20Course%20Schedule.cpp)|24 ms|
 |273|[ Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|[C++](./solutions/273.%20Integer%20to%20English%20Words.cpp)|0 ms|
+|432|[ All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)|[C++](./solutions/432.%20All%20O%60one%20Data%20Structure.cpp)|147 ms|
 |463|[ Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[C++](./solutions/463.%20Island%20Perimeter.cpp)|139 ms|
 |486|[ Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[C++](./solutions/486.%20Predict%20the%20Winner.cpp)|118 ms|
 |496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[C++](./solutions/496.%20Next%20Greater%20Element%20I.cpp)|4 ms|
