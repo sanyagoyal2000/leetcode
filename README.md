@@ -57,6 +57,7 @@
 |581|[ Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[C++](./solutions/581.%20Shortest%20Unsorted%20Continuous%20Subarray.cpp)|32 ms|
 |605|[ Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[C++](./solutions/605.%20Can%20Place%20Flowers.cpp)|19 ms|
 |628|[ Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[C++](./solutions/628.%20Maximum%20Product%20of%20Three%20Numbers.cpp)|56 ms|
+|671|[ Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[C++](./solutions/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree.cpp)|0 ms|
 |883|[ Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|[C++](./solutions/883.%20Projection%20Area%20of%203D%20Shapes.cpp)|8 ms|
 |885|[ Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[C++](./solutions/885.%20Spiral%20Matrix%20III.cpp)|16 ms|
 |910|[ Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[C++](./solutions/910.%20Smallest%20Range%20II.cpp)|26 ms|
