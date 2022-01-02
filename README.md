@@ -71,6 +71,7 @@
 |980|[ Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)|[C++](./solutions/980.%20Unique%20Paths%20III.cpp)|0 ms|
 |989|[ Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[C++](./solutions/989.%20Add%20to%20Array-Form%20of%20Integer.cpp)|28 ms|
 |997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[C++](./solutions/997.%20Find%20the%20Town%20Judge.cpp)|448 ms|
+|1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.cpp)|30 ms|
 |1094|[ Car Pooling](https://leetcode.com/problems/car-pooling/)|[C++](./solutions/1094.%20Car%20Pooling.cpp)|12 ms|
 |1235|[ Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[C++](./solutions/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.cpp)|144 ms|
 |1326|[ Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)|[C++](./solutions/1326.%20Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden.cpp)|12 ms|
