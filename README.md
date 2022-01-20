@@ -67,6 +67,7 @@
 |636|[ Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[C++](./solutions/636.%20Exclusive%20Time%20of%20Functions.cpp)||
 |671|[ Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[C++](./solutions/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree.cpp)|0 ms|
 |698|[ Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|[C++](./solutions/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets.cpp)|950 ms|
+|875|[ Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[C++](./solutions/875.%20Koko%20Eating%20Bananas.cpp)|40 ms|
 |883|[ Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|[C++](./solutions/883.%20Projection%20Area%20of%203D%20Shapes.cpp)|8 ms|
 |885|[ Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[C++](./solutions/885.%20Spiral%20Matrix%20III.cpp)|16 ms|
 |910|[ Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[C++](./solutions/910.%20Smallest%20Range%20II.cpp)|26 ms|
