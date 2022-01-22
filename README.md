@@ -85,6 +85,7 @@
 |1376|[ Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|[C++](./solutions/1376.%20Time%20Needed%20to%20Inform%20All%20Employees.cpp)|N/A|
 |1405|[ Longest Happy String](https://leetcode.com/problems/longest-happy-string/)|[C++](./solutions/1405.%20Longest%20Happy%20String.cpp)|0 ms|
 |1424|[ Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|[C++](./solutions/1424.%20Diagonal%20Traverse%20II.cpp)|340 ms|
+|1510|[ Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|[C++](./solutions/1510.%20Stone%20Game%20IV.cpp)|53 ms|
 |1593|[ Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)|[C++](./solutions/1593.%20Split%20a%20String%20Into%20the%20Max%20Number%20of%20Unique%20Substrings.cpp)||
 |1882|[ Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|[C++](./solutions/1882.%20Process%20Tasks%20Using%20Servers.cpp)|404 ms|
 |1888|[ Minimum Number of Flips to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)|[C++](./solutions/1888.%20Minimum%20Number%20of%20Flips%20to%20Make%20the%20Binary%20String%20Alternating.cpp)|692 ms|
