@@ -10,27 +10,52 @@
  */
 class Solution {
 public:
-    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
-       ListNode *head = new ListNode(0);
-        ListNode *p = head;
-        ListNode *p1 = l1;
-        ListNode *p2 = l2;
-        while (p1 != NULL && p2 != NULL) {
-            if (p1->val < p2->val) {
-                p->next = p1;
-                p1 = p1->next;
-            } else {
-                p->next = p2;
-                p2 = p2->next;
+    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+           // if list1 happen to be NULL
+        // we will simply return list2.
+        if(list1 == NULL)
+            return list2;
+        
+        // if list2 happen to be NULL
+        // we will simply return list1.
+        if(list2 == NULL)
+            return list1;
+        
+        ListNode * ptr = list1;
+        if(list1 -> val > list2 -> val)
+        {
+            ptr = list2;
+            list2 = list2 -> next;
+        }
+        else
+        {
+            list1 = list1 -> next;
+        }
+        ListNode *curr = ptr;
+        
+        // till one of the list doesn't reaches NULL
+        while(list1 &&  list2)
+        {
+            if(list1 -> val < list2 -> val){
+                curr->next = list1;
+                list1 = list1 -> next;
             }
-            p = p->next;
+            else{
+                curr->next = list2;
+                list2 = list2 -> next;
+            }
+            curr = curr -> next;
+                
         }
-        if (p1 != NULL) {
-            p->next = p1;
-        }
-        if (p2 != NULL) {
-            p->next = p2;
-        }
-       return head->next;
+        
+        // adding remaining elements of bigger list.
+        if(!list1)
+            curr -> next = list2;
+        else
+            curr -> next = list1;
+            
+        return ptr;
+       
+    
     }
 };
