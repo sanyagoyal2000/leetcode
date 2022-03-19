@@ -1,14 +1,24 @@
 class Solution {
 public:
     int halveArray(vector<int>& nums) {
-    double s = accumulate(begin(nums), end(nums), 0.0), k = 0, i = 0;
-    priority_queue<double> pq(begin(nums), end(nums));
-    while (s - k > s / 2) {
-        double x = pq.top(); pq.pop();
-        k += x / 2;
-        pq.push(x / 2);     
-        i++;
+        if(nums.size()==1)return 1;
+        double sum=0;
+        priority_queue<double>p;
+        int res=0;
+        for(int i=0;i<nums.size();i++){
+            sum+=double(nums[i]);
+            p.push(nums[i]);
+        }
+        double t=double(sum/2);
+        
+        while(sum>t){
+            double num=p.top();
+            p.pop();
+                sum=sum-num +double(num/2);
+                p.push(num/2);
+                res++;
+        }
+        
+        return res;
     }
-    return i;
-}
 };
