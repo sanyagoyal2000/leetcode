@@ -68,6 +68,7 @@
 |628|[ Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[C++](./solutions/628.%20Maximum%20Product%20of%20Three%20Numbers.cpp)|56 ms|
 |636|[ Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[C++](./solutions/636.%20Exclusive%20Time%20of%20Functions.cpp)||
 |671|[ Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[C++](./solutions/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree.cpp)|0 ms|
+|678|[ Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[C++](./solutions/678.%20Valid%20Parenthesis%20String.cpp)|0 ms|
 |698|[ Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|[C++](./solutions/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets.cpp)|950 ms|
 |740|[ Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[C++](./solutions/740.%20Delete%20and%20Earn.cpp)|11 ms|
 |799|[ Champagne Tower](https://leetcode.com/problems/champagne-tower/)|[C++](./solutions/799.%20Champagne%20Tower.cpp)|4 ms|
