@@ -87,6 +87,7 @@
 |1041|[ Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[C++](./solutions/1041.%20Robot%20Bounded%20In%20Circle.cpp)|0 ms|
 |1094|[ Car Pooling](https://leetcode.com/problems/car-pooling/)|[C++](./solutions/1094.%20Car%20Pooling.cpp)|12 ms|
 |1235|[ Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[C++](./solutions/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.cpp)|144 ms|
+|1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[C++](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.cpp)|27 ms|
 |1326|[ Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)|[C++](./solutions/1326.%20Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden.cpp)|12 ms|
 |1359|[ Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|[C++](./solutions/1359.%20Count%20All%20Valid%20Pickup%20and%20Delivery%20Options.cpp)|2 ms|
 |1376|[ Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|[C++](./solutions/1376.%20Time%20Needed%20to%20Inform%20All%20Employees.cpp)|N/A|
