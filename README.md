@@ -17,6 +17,7 @@
 |34|[ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[C++](./solutions/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp)|8 ms|
 |36|[ Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[C++](./solutions/36.%20Valid%20Sudoku.cpp)|36 ms|
 |37|[ Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[C++](./solutions/37.%20Sudoku%20Solver.cpp)|50 ms|
+|39|[ Combination Sum](https://leetcode.com/problems/combination-sum/)|[C++](./solutions/39.%20Combination%20Sum.cpp)|7 ms|
 |43|[ Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C++](./solutions/43.%20Multiply%20Strings.cpp)|4 ms|
 |51|[ N-Queens](https://leetcode.com/problems/n-queens/)|[C++](./solutions/51.%20N-Queens.cpp)|25 ms|
 |54|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[C++](./solutions/54.%20Spiral%20Matrix.cpp)|0 ms|
