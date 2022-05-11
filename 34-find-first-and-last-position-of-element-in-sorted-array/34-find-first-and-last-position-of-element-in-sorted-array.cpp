@@ -34,7 +34,7 @@ public:
     vector<int> searchRange(vector<int>& nums, int target) {
         vector<int>ans={-1,-1};
         
-        if(nums.size()==0)return ans;
+        if(nums.size()==0 or nums[nums.size()-1]<target)return ans;
         
         ans[0]=(lower(nums,target));
         ans[1]=(upper(nums,target));
