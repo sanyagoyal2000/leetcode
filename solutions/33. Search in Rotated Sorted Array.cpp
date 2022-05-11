@@ -1,35 +1,30 @@
 class Solution {
 public:
-    int search(vector<int>& nums, int target, int left, int right){
-        if(left>right)
-            return -1;
+    //int bs(vector<int>& nums, int target){
         
-        int mid = (left + right)/2;
-        
-        if(nums[mid]==target)
-            return mid;
-        
-        if(nums[left] <= nums[mid]){
-            if(nums[left]<=target && nums[mid]>=target)
-                return search(nums, target, left, mid-1);
-            
-            else
-                return search(nums, target, mid+1, right);
-        }    
-        
-        if(nums[mid]<=target && nums[right]>=target)
-            return search(nums, target, mid+1, right);
-        
-        else
-            return search(nums, target, left, mid-1);
-        
+    int search(vector<int>& arr, int target) {
+        int l=0;
+        int r=arr.size()-1;
+        while(l<=r){
+            int mid=l+(r-l)/2;
+           if(arr[mid]==target)return mid;
+           if(arr[l]<=arr[mid]){
+               if(target>=arr[l] and target <arr[mid]){
+                   r=mid-1;
+               } 
+               else{
+                   l=mid+1;
+               }
+           }
+            else{
+                if(arr[mid]<target and target<=arr[r]){
+                    l=mid+1;
+                }
+                else{
+                    r=mid-1;
+                }
+            }
+        }
+        return -1;
     }
-    
-    int search(vector<int>& nums, int target) {
-        
-        int index = search(nums, target, 0, nums.size()-1);
-        
-        return index;
-        
-    }
 };
