@@ -112,5 +112,6 @@
 |1938|[ Maximum Genetic Difference Query](https://leetcode.com/problems/maximum-genetic-difference-query/)|[C++](./solutions/1938.%20Maximum%20Genetic%20Difference%20Query.cpp)|804 ms|
 |1963|[ Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)|[C++](./solutions/1963.%20Minimum%20Number%20of%20Swaps%20to%20Make%20the%20String%20Balanced.cpp)|132 ms|
 |1994|[ The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets/)|[C++](./solutions/1994.%20The%20Number%20of%20Good%20Subsets.cpp)|288 ms|
+|2089|[ Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[C++](./solutions/2089.%20Find%20Target%20Indices%20After%20Sorting%20Array.cpp)|7 ms|
 |2207|[ Maximize Number of Subsequences in a String](https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/)|[C++](./solutions/2207.%20Maximize%20Number%20of%20Subsequences%20in%20a%20String.cpp)|264 ms|
 |2208|[ Minimum Operations to Halve Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/)|[C++](./solutions/2208.%20Minimum%20Operations%20to%20Halve%20Array%20Sum.cpp)|228 ms|
