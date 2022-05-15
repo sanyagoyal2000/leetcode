@@ -1,6 +1,18 @@
 class Solution {
 public:
-   int maximumWhiteTiles(vector<vector<int>>& tiles, int carpetLen) {
+    int find(vector<vector<int>>& nums, int k){
+        int l = 0,h=nums.size()-1,re = -1;
+        while(l<h){
+            int m = l+(h-l)/2;
+            if(nums[m][1]<k) {
+                re = m;
+                h=m;
+            }
+            else l=m+1;
+        }
+        return re;
+    }
+    int maximumWhiteTiles(vector<vector<int>>& tiles, int carpetLen) {
         
         int n = tiles.size();
         vector<int> start, end;
