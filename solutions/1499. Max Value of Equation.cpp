@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/max-value-of-equation/discuss/710434/C%2B%2BJava-O(n)-minimalizm
 class Solution {
 public:
     int findMaxValueOfEquation(vector<vector<int>>& points, int k) {
