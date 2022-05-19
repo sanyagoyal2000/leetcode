@@ -1,51 +1,33 @@
 class Solution {
 public:
      int largestVariance(string s) {
-        int n = s.size();
-        int res = 0;
-        
-        // choose two char for comparison
-        // p is the one with higher freq.
-        // q is the one with lower freq.
-        for (char p = 'a'; p <= 'z'; p++) {
-            for (char q = 'a'; q <= 'z'; q++) {
-                if (p == q) continue;
-                
-                // run Kadane's algo
-                int pCount = 0; // higher one
-                int qCount = 0; // lower one
-                
-                // this flag would deal with the edge case
-                // e.g., "pqqpppppp"
-                // after reset, there is no q but we can extend
-                // the interval to the previous q
-                // and the answer should -1
-                bool canExtendprevQ = false;
-                
-                for (auto c : s) {
-                    if (c == p) pCount++;
-                    if (c == q) qCount++;
-                    
-                    // an interval should contain at least one q
-                    if (qCount > 0) {
-                        res = max(res, pCount - qCount);
-                    }
-                    // edge case: consider previous q
-                    else if (qCount == 0 && canExtendprevQ) {
-                        res = max(res, pCount - qCount - 1);
-                    }
-                    
-                    // reset if # of q > # of p
-                    if (qCount > pCount) {
-                        qCount = pCount = 0;
-                        
-                        // once reset, the interval can be extended
-                        // as there must be one q before the next interval
-                        canExtendprevQ = true;
-                    }
+         int ans = 0;
+        vector<int> freq(26);
+        for(auto& c:s){
+            freq[c-'a']++;
+        }
+        for(char ch1='a';ch1<='z';ch1++){
+            for(char ch2='a';ch2<='z';ch2++){
+                if(ch1==ch2 or !freq[ch1-'a'] or !freq[ch2-'a']){
+                    continue;
                 }
+                for(int rev=1;rev<=2;rev++){
+                   int cnt1 = 0,cnt2 = 0;
+                    for(auto& c:s){
+                        cnt1 += c==ch1;
+                        cnt2 += c==ch2;
+                        if(cnt1<cnt2){
+                            cnt1 = cnt2 = 0;
+                        }
+                        if(cnt1>0 and cnt2>0){
+                            ans = max(ans,cnt1-cnt2);
+                        }
+                    } 
+                    reverse(s.begin(),s.end());
+                }
+ 
             }
         }
-        return res;
+        return ans;
     }
 };
