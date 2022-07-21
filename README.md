@@ -129,6 +129,7 @@
 |2095|[ Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[C++](./solutions/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.cpp)|1661 ms|
 |2207|[ Maximize Number of Subsequences in a String](https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/)|[C++](./solutions/2207.%20Maximize%20Number%20of%20Subsequences%20in%20a%20String.cpp)|264 ms|
 |2208|[ Minimum Operations to Halve Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/)|[C++](./solutions/2208.%20Minimum%20Operations%20to%20Halve%20Array%20Sum.cpp)|228 ms|
+|2209|[ Minimum White Tiles After Covering With Carpets](https://leetcode.com/problems/minimum-white-tiles-after-covering-with-carpets/)|[C++](./solutions/2209.%20Minimum%20White%20Tiles%20After%20Covering%20With%20Carpets.cpp)|1779 ms|
 |2226|[ Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/)|[C++](./solutions/2226.%20Maximum%20Candies%20Allocated%20to%20K%20Children.cpp)|541 ms|
 |2271|[ Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)|[C++](./solutions/2271.%20Maximum%20White%20Tiles%20Covered%20by%20a%20Carpet.cpp)|376 ms|
 |2272|[ Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)|[C++](./solutions/2272.%20Substring%20With%20Largest%20Variance.cpp)|156 ms|
