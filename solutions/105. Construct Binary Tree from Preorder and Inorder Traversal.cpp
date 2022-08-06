@@ -11,28 +11,25 @@
  */
 class Solution {
 public:
-    int preindex=0;
-  TreeNode* inpre(vector<int> preorder,vector<int> inorder,int left,int right)
-  {
-      if(left>right)
-      {
-          return NULL;
-      }
-      TreeNode* root=new TreeNode(preorder[preindex++]);
-      int inindex=0;
-      for(int i=left;i<=right;i++)
-      {
-          if(inorder[i]==root->val)
-          {
-              inindex=i;
-              break;
-          }
-      }
-      root->left=inpre(preorder,inorder,left,inindex-1);
-      root->right=inpre(preorder,inorder,inindex+1,right);
-      return root;
-  }
+    TreeNode* construct(vector<int>& preorder, vector<int>& inorder,int is,int ie,int ps,int pe,map<int,int>&m){
+        if(is>ie or ps>pe)return NULL;
+        TreeNode *root= new TreeNode(preorder[ps]);
+        int ele=m[root->val];
+        int nele=ele-is;//total no. of nodes in left subtree
+        root->left=construct(preorder,inorder,is,ele-1,ps+1,ps+nele,m);
+        root->right=construct(preorder,inorder,ele+1,ie,ps+nele+1,pe,m);
+        return root;
+        
+    }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        return inpre(preorder,inorder,0,inorder.size()-1);
+        map<int,int>m;
+        for(int i=0;i<inorder.size();i++){
+            m[inorder[i]]=i;
+        }
+        int is=0;
+        int ie=inorder.size()-1;
+        int ps=0;
+        int pe=preorder.size()-1;
+        return construct(preorder,inorder,is,ie,ps,pe,m);
     }
 };
