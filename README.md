@@ -134,6 +134,7 @@
 |1937|[ Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/)|[C++](./solutions/1937.%20Maximum%20Number%20of%20Points%20with%20Cost.cpp)|308 ms|
 |1938|[ Maximum Genetic Difference Query](https://leetcode.com/problems/maximum-genetic-difference-query/)|[C++](./solutions/1938.%20Maximum%20Genetic%20Difference%20Query.cpp)|804 ms|
 |1963|[ Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)|[C++](./solutions/1963.%20Minimum%20Number%20of%20Swaps%20to%20Make%20the%20String%20Balanced.cpp)|132 ms|
+|1976|[ Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)|[C++](./solutions/1976.%20Number%20of%20Ways%20to%20Arrive%20at%20Destination.cpp)|95 ms|
 |1994|[ The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets/)|[C++](./solutions/1994.%20The%20Number%20of%20Good%20Subsets.cpp)|288 ms|
 |2064|[ Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/)|[C++](./solutions/2064.%20Minimized%20Maximum%20of%20Products%20Distributed%20to%20Any%20Store.cpp)|405 ms|
 |2089|[ Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[C++](./solutions/2089.%20Find%20Target%20Indices%20After%20Sorting%20Array.cpp)|7 ms|
