@@ -118,6 +118,7 @@
 |1424|[ Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|[C++](./solutions/1424.%20Diagonal%20Traverse%20II.cpp)|340 ms|
 |1499|[ Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)|[C++](./solutions/1499.%20Max%20Value%20of%20Equation.cpp)|450 ms|
 |1510|[ Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|[C++](./solutions/1510.%20Stone%20Game%20IV.cpp)|53 ms|
+|1514|[ Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)|[C++](./solutions/1514.%20Path%20with%20Maximum%20Probability.cpp)|217 ms|
 |1541|[ Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)|[C++](./solutions/1541.%20Minimum%20Insertions%20to%20Balance%20a%20Parentheses%20String.cpp)|38 ms|
 |1593|[ Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)|[C++](./solutions/1593.%20Split%20a%20String%20Into%20the%20Max%20Number%20of%20Unique%20Substrings.cpp)||
 |1691|[ Maximum Height by Stacking Cuboids](https://leetcode.com/problems/maximum-height-by-stacking-cuboids/)|[C++](./solutions/1691.%20Maximum%20Height%20by%20Stacking%20Cuboids.cpp)||
