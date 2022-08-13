@@ -66,6 +66,7 @@
 |273|[ Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|[C++](./solutions/273.%20Integer%20to%20English%20Words.cpp)|0 ms|
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[C++](./solutions/290.%20Word%20Pattern.cpp)|0 ms|
 |312|[ Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[C++](./solutions/312.%20Burst%20Balloons.cpp)|600 ms|
+|329|[ Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[C++](./solutions/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix.cpp)|54 ms|
 |373|[ Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[C++](./solutions/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums.cpp)|100 ms|
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[C++](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.cpp)|27 ms|
 |404|[ Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[C++](./solutions/404.%20Sum%20of%20Left%20Leaves.cpp)|4 ms|
