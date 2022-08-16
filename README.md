@@ -105,6 +105,7 @@
 |1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.cpp)|30 ms|
 |1011|[ Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|[C++](./solutions/1011.%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.cpp)|101 ms|
 |1022|[ Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[C++](./solutions/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.cpp)|0 ms|
+|1038|[ Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[C++](./solutions/1038.%20Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree.cpp)|3 ms|
 |1041|[ Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[C++](./solutions/1041.%20Robot%20Bounded%20In%20Circle.cpp)|0 ms|
 |1089|[ Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[C++](./solutions/1089.%20Duplicate%20Zeros.cpp)|8 ms|
 |1092|[ Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence/)|[C++](./solutions/1092.%20Shortest%20Common%20Supersequence%20.cpp)|592 ms|
