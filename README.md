@@ -83,6 +83,7 @@
 |581|[ Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[C++](./solutions/581.%20Shortest%20Unsorted%20Continuous%20Subarray.cpp)|32 ms|
 |605|[ Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[C++](./solutions/605.%20Can%20Place%20Flowers.cpp)|19 ms|
 |628|[ Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[C++](./solutions/628.%20Maximum%20Product%20of%20Three%20Numbers.cpp)|56 ms|
+|630|[ Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|[C++](./solutions/630.%20Course%20Schedule%20III.cpp)|625 ms|
 |636|[ Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[C++](./solutions/636.%20Exclusive%20Time%20of%20Functions.cpp)||
 |671|[ Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[C++](./solutions/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree.cpp)|0 ms|
 |678|[ Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[C++](./solutions/678.%20Valid%20Parenthesis%20String.cpp)|0 ms|
