@@ -12,26 +12,31 @@
 class Solution {
 public:
     vector<int> largestValues(TreeNode* root) {
-        queue<TreeNode*>q;
-        vector<int>temp;
-       vector<vector<int>>ans;
-        if(root==NULL) return temp;
+        vector<int>ans;
+        if(!root)return ans;
+        queue<TreeNode *>q;
         q.push(root);
-        while(q.empty()!=true)
-        {   vector<int>v;
+        while(!q.empty()){
+            
             int n=q.size();
-            for(int i=0;i<n;i++)
-            {   TreeNode* t=q.front();q.pop();
-                v.push_back(t->val);
-                if(t->left) q.push(t->left);
-                if(t->right) q.push(t->right);
+             priority_queue<int>p;
+            for(int i=0;i<n;i++){
+                TreeNode *temp=q.front();
+                q.pop();
+                p.push(temp->val);
+                if(temp->left){
+                    q.push(temp->left);
+                }
+                if(temp->right){
+                    q.push(temp->right);
+                }
             }
-            ans.push_back(v);
-         int ma=v[0];
-         for(int i=1;i<v.size();i++)
-             ma=max(ma,v[i]);
-         temp.push_back(ma);
+            int x=p.top();
+            ans.push_back(x);
+            while(!p.empty())p.pop();
+            
+            
         }
-        return temp;
+        return ans;
     }
 };
