@@ -1,9 +1,10 @@
 class Solution {
 public:
     int minPathCost(vector<vector<int>>& grid, vector<vector<int>>& cost) {
-        vector<vector<int>>dp(grid);
         int r=grid.size();
         int c=grid[0].size();
+        vector<vector<int>>dp(r,vector<int>(c));
+
         for(int i=0;i<c;i++){
             dp[0][i]=grid[0][i];
         }
