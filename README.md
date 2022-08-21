@@ -146,6 +146,7 @@
 |1994|[ The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets/)|[C++](./solutions/1994.%20The%20Number%20of%20Good%20Subsets.cpp)|288 ms|
 |2025|[ Maximum Number of Ways to Partition an Array](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/)|[C++](./solutions/2025.%20Maximum%20Number%20of%20Ways%20to%20Partition%20an%20Array.cpp)|1000 ms|
 |2045|[ Second Minimum Time to Reach Destination](https://leetcode.com/problems/second-minimum-time-to-reach-destination/)|[C++](./solutions/2045.%20Second%20Minimum%20Time%20to%20Reach%20Destination.cpp)|862 ms|
+|2063|[ Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)|[C++](./solutions/2063.%20Vowels%20of%20All%20Substrings.cpp)|39 ms|
 |2064|[ Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/)|[C++](./solutions/2064.%20Minimized%20Maximum%20of%20Products%20Distributed%20to%20Any%20Store.cpp)|405 ms|
 |2089|[ Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[C++](./solutions/2089.%20Find%20Target%20Indices%20After%20Sorting%20Array.cpp)|7 ms|
 |2095|[ Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[C++](./solutions/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.cpp)|1661 ms|
