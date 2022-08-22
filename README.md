@@ -162,3 +162,4 @@
 |2272|[ Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)|[C++](./solutions/2272.%20Substring%20With%20Largest%20Variance.cpp)|156 ms|
 |2305|[ Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/)|[C++](./solutions/2305.%20Fair%20Distribution%20of%20Cookies.cpp)|2773 ms|
 |2328|[ Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)|[C++](./solutions/2328.%20Number%20of%20Increasing%20Paths%20in%20a%20Grid.cpp)|511 ms|
+|2368|[ Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|[C++](./solutions/2368.%20Reachable%20Nodes%20With%20Restrictions.cpp)|1608 ms|
