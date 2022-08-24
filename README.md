@@ -153,6 +153,7 @@
 |2045|[ Second Minimum Time to Reach Destination](https://leetcode.com/problems/second-minimum-time-to-reach-destination/)|[C++](./solutions/2045.%20Second%20Minimum%20Time%20to%20Reach%20Destination.cpp)|862 ms|
 |2063|[ Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)|[C++](./solutions/2063.%20Vowels%20of%20All%20Substrings.cpp)|39 ms|
 |2064|[ Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/)|[C++](./solutions/2064.%20Minimized%20Maximum%20of%20Products%20Distributed%20to%20Any%20Store.cpp)|405 ms|
+|2088|[ Count Fertile Pyramids in a Land](https://leetcode.com/problems/count-fertile-pyramids-in-a-land/)|[C++](./solutions/2088.%20Count%20Fertile%20Pyramids%20in%20a%20Land.cpp)|155 ms|
 |2089|[ Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[C++](./solutions/2089.%20Find%20Target%20Indices%20After%20Sorting%20Array.cpp)|7 ms|
 |2095|[ Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[C++](./solutions/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.cpp)|1661 ms|
 |2207|[ Maximize Number of Subsequences in a String](https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/)|[C++](./solutions/2207.%20Maximize%20Number%20of%20Subsequences%20in%20a%20String.cpp)|264 ms|
