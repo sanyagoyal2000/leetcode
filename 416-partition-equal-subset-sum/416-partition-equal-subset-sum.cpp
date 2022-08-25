@@ -6,15 +6,15 @@ public:
         {
             return false;
         }
-        else if(dp[sum][i] != -1)
+        else if(dp[i][sum] != -1)
         {
-            return dp[sum][i];
+            return dp[i][sum];
         }
         else if(sum == 0)
         {
             return true;
         }
-        return dp[sum][i] = help(nums,sum-nums[i],i+1,dp)||help(nums,sum,i+1,dp);
+        return dp[i][sum] = help(nums,sum-nums[i],i+1,dp)||help(nums,sum,i+1,dp);
     }
     
 
@@ -29,7 +29,7 @@ public:
             return false;
         else
         {
-            vector<vector<int>> dp((sum/2)+1,vector<int>(nums.size(),-1));
+            vector<vector<int>> dp(nums.size(),vector<int>((sum/2)+1,-1));
             return help(nums,sum/2,0,dp);
     
         }
