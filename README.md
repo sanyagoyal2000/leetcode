@@ -46,6 +46,7 @@
 |113|[ Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[C++](./solutions/113.%20Path%20Sum%20II.cpp)|12 ms|
 |114|[ Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[C++](./solutions/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List.cpp)|20 ms|
 |118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[C++](./solutions/118.%20Pascal's%20Triangle.cpp)|0 ms|
+|120|[ Triangle](https://leetcode.com/problems/triangle/)|[C++](./solutions/120.%20Triangle.cpp)|14 ms|
 |123|[ Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|[C++](./solutions/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.cpp)|220 ms|
 |124|[ Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[C++](./solutions/124.%20Binary%20Tree%20Maximum%20Path%20Sum.cpp)|39 ms|
 |130|[ Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[C++](./solutions/130.%20Surrounded%20Regions.cpp)|12 ms|
