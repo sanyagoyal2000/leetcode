@@ -98,6 +98,7 @@
 |705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[C++](./solutions/705.%20Design%20HashSet.cpp)|270 ms|
 |706|[ Design HashMap](https://leetcode.com/problems/design-hashmap/)|[C++](./solutions/706.%20Design%20HashMap.cpp)|256 ms|
 |740|[ Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[C++](./solutions/740.%20Delete%20and%20Earn.cpp)|11 ms|
+|743|[ Network Delay Time](https://leetcode.com/problems/network-delay-time/)|[C++](./solutions/743.%20Network%20Delay%20Time.cpp)|251 ms|
 |765|[ Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)|[C++](./solutions/765.%20Couples%20Holding%20Hands.cpp)|2 ms|
 |783|[ Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[C++](./solutions/783.%20Minimum%20Distance%20Between%20BST%20Nodes.cpp)|8 ms|
 |787|[ Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[C++](./solutions/787.%20Cheapest%20Flights%20Within%20K%20Stops.cpp)|473 ms|
