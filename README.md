@@ -149,6 +149,7 @@
 |1639|[ Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)|[C++](./solutions/1639.%20Number%20of%20Ways%20to%20Form%20a%20Target%20String%20Given%20a%20Dictionary.cpp)|240 ms|
 |1691|[ Maximum Height by Stacking Cuboids](https://leetcode.com/problems/maximum-height-by-stacking-cuboids/)|[C++](./solutions/1691.%20Maximum%20Height%20by%20Stacking%20Cuboids.cpp)||
 |1721|[ Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[C++](./solutions/1721.%20Swapping%20Nodes%20in%20a%20Linked%20List.cpp)|668 ms|
+|1722|[ Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)|[C++](./solutions/1722.%20Minimize%20Hamming%20Distance%20After%20Swap%20Operations.cpp)|942 ms|
 |1723|[ Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)|[C++](./solutions/1723.%20Find%20Minimum%20Time%20to%20Finish%20All%20Jobs.cpp)|8 ms|
 |1882|[ Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|[C++](./solutions/1882.%20Process%20Tasks%20Using%20Servers.cpp)|404 ms|
 |1888|[ Minimum Number of Flips to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)|[C++](./solutions/1888.%20Minimum%20Number%20of%20Flips%20to%20Make%20the%20Binary%20String%20Alternating.cpp)|692 ms|
