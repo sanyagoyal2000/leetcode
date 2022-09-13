@@ -141,6 +141,7 @@
 |1376|[ Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|[C++](./solutions/1376.%20Time%20Needed%20to%20Inform%20All%20Employees.cpp)|N/A|
 |1405|[ Longest Happy String](https://leetcode.com/problems/longest-happy-string/)|[C++](./solutions/1405.%20Longest%20Happy%20String.cpp)|0 ms|
 |1424|[ Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|[C++](./solutions/1424.%20Diagonal%20Traverse%20II.cpp)|340 ms|
+|1463|[ Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|[C++](./solutions/1463.%20Cherry%20Pickup%20II.cpp)|191 ms|
 |1497|[ Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/)|[C++](./solutions/1497.%20Check%20If%20Array%20Pairs%20Are%20Divisible%20by%20k.cpp)|175 ms|
 |1499|[ Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)|[C++](./solutions/1499.%20Max%20Value%20of%20Equation.cpp)|450 ms|
 |1510|[ Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|[C++](./solutions/1510.%20Stone%20Game%20IV.cpp)|53 ms|
