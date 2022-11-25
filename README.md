@@ -88,6 +88,7 @@
 |486|[ Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[C++](./solutions/486.%20Predict%20the%20Winner.cpp)|118 ms|
 |496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[C++](./solutions/496.%20Next%20Greater%20Element%20I.cpp)|4 ms|
 |503|[ Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[C++](./solutions/503.%20Next%20Greater%20Element%20II.cpp)|32 ms|
+|552|[ Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/)|[C++](./solutions/552.%20Student%20Attendance%20Record%20II.cpp)|360 ms|
 |572|[ Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[C++](./solutions/572.%20Subtree%20of%20Another%20Tree.cpp)|N/A|
 |581|[ Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[C++](./solutions/581.%20Shortest%20Unsorted%20Continuous%20Subarray.cpp)|32 ms|
 |605|[ Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[C++](./solutions/605.%20Can%20Place%20Flowers.cpp)|19 ms|
