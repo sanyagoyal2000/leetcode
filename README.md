@@ -75,6 +75,7 @@
 |279|[ Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[C++](./solutions/279.%20Perfect%20Squares.cpp)|107 ms|
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[C++](./solutions/290.%20Word%20Pattern.cpp)|0 ms|
 |312|[ Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[C++](./solutions/312.%20Burst%20Balloons.cpp)|600 ms|
+|328|[ Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[C++](./solutions/328.%20Odd%20Even%20Linked%20List.cpp)|26 ms|
 |329|[ Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[C++](./solutions/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix.cpp)|54 ms|
 |373|[ Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[C++](./solutions/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums.cpp)|100 ms|
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[C++](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.cpp)|27 ms|
