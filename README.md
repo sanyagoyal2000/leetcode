@@ -115,6 +115,7 @@
 |883|[ Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|[C++](./solutions/883.%20Projection%20Area%20of%203D%20Shapes.cpp)|8 ms|
 |885|[ Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[C++](./solutions/885.%20Spiral%20Matrix%20III.cpp)|16 ms|
 |910|[ Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[C++](./solutions/910.%20Smallest%20Range%20II.cpp)|26 ms|
+|938|[ Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[C++](./solutions/938.%20Range%20Sum%20of%20BST.cpp)|334 ms|
 |941|[ Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[C++](./solutions/941.%20Valid%20Mountain%20Array.cpp)|28 ms|
 |968|[ Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[C++](./solutions/968.%20Binary%20Tree%20Cameras.cpp)||
 |974|[ Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[C++](./solutions/974.%20Subarray%20Sums%20Divisible%20by%20K.cpp)|76 ms|
