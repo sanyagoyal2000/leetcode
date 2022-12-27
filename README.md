@@ -194,6 +194,7 @@
 |2226|[ Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/)|[C++](./solutions/2226.%20Maximum%20Candies%20Allocated%20to%20K%20Children.cpp)|541 ms|
 |2271|[ Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)|[C++](./solutions/2271.%20Maximum%20White%20Tiles%20Covered%20by%20a%20Carpet.cpp)|376 ms|
 |2272|[ Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)|[C++](./solutions/2272.%20Substring%20With%20Largest%20Variance.cpp)|156 ms|
+|2279|[ Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|[C++](./solutions/2279.%20Maximum%20Bags%20With%20Full%20Capacity%20of%20Rocks.cpp)|187 ms|
 |2305|[ Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/)|[C++](./solutions/2305.%20Fair%20Distribution%20of%20Cookies.cpp)|2773 ms|
 |2328|[ Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)|[C++](./solutions/2328.%20Number%20of%20Increasing%20Paths%20in%20a%20Grid.cpp)|511 ms|
 |2368|[ Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|[C++](./solutions/2368.%20Reachable%20Nodes%20With%20Restrictions.cpp)|1608 ms|
