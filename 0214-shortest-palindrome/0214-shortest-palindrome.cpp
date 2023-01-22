@@ -1,31 +1,39 @@
 class Solution {
 public:
-    string shortestPalindrome(string s) {
-        string rev=s;
-        reverse(rev.begin(),rev.end());
-        string temp=s+'#'+rev;
-        //kmp  lps
-        int n=temp.length();
-        vector<int> lps(n,0);
-        int len = 0, i = 1;
-        while(i < n) {
-            if(temp[len] == temp[i]) {
+    int LPS(string s){
+        int n = s.size();
+        vector<int>lps(n,0);
+        int len = 0;
+        int i = 1;
+        while(i < n){
+            if(s[i] == s[len]){
                 len++;
-                lps[i] =len;
+                lps[i] = len;
                 i++;
-            } 
-            else {
-                if(len != 0){
+            }
+            else{
+                if(len > 0){
                     len = lps[len-1];
                 }
-                else {
-                    lps[i] = 0;
+                else{
                     i++;
                 }
             }
         }
-        temp=s.substr(lps[n-1]);
-        reverse(temp.begin(),temp.end());
-        return temp+s;
+        return lps[n-1];
+    }
+    string shortestPalindrome(string s) {
+        string t = s + "#";
+        int n = s.size();
+        for(int i = n-1; i >= 0; i--){
+            t += s[i];
+        }
+        int len = LPS(t);
+        string ans = "";
+        for(int j = n-1; j >= len; j--){
+            ans += s[j];
+        }
+        ans += s;
+        return ans;
     }
 };
