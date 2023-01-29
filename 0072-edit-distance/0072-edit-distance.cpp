@@ -1,5 +1,18 @@
 class Solution {
 public:
+    /*
+    we can either replace insert delete
+     replace. insert
+     delete   your key
+     if the characters are equal you need to look for the strings before that character so dp[i-1][j-1]
+     else the operation through which the ans is min
+     0 r o s
+     h
+     o
+     r
+     s
+     e
+    */
     int minDistance(string word1, string word2) {
         int m=word1.size();
         int n=word2.size();
