@@ -42,4 +42,13 @@ public:
             
         return cnt;
     }
+    /*
+     unordered_set<int> setG (G.begin(), G.end());
+        int res = 0;
+        while (head != NULL) {
+            if (setG.count(head->val) && (head->next == NULL || !setG.count(head->next->val))) res++;
+            head = head->next;
+        }
+        return res;
+    */
 };
