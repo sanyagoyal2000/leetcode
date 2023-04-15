@@ -103,6 +103,7 @@
 |698|[ Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|[C++](./solutions/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets.cpp)|950 ms|
 |705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[C++](./solutions/705.%20Design%20HashSet.cpp)|270 ms|
 |706|[ Design HashMap](https://leetcode.com/problems/design-hashmap/)|[C++](./solutions/706.%20Design%20HashMap.cpp)|256 ms|
+|707|[ Design Linked List](https://leetcode.com/problems/design-linked-list/)|[C++](./solutions/707.%20Design%20Linked%20List.cpp)|46 ms|
 |740|[ Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[C++](./solutions/740.%20Delete%20and%20Earn.cpp)|11 ms|
 |741|[ Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)|[C++](./solutions/741.%20Cherry%20Pickup.cpp)|111 ms|
 |743|[ Network Delay Time](https://leetcode.com/problems/network-delay-time/)|[C++](./solutions/743.%20Network%20Delay%20Time.cpp)|251 ms|
