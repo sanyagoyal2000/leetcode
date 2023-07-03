@@ -179,6 +179,7 @@
 |1937|[ Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/)|[C++](./solutions/1937.%20Maximum%20Number%20of%20Points%20with%20Cost.cpp)|308 ms|
 |1938|[ Maximum Genetic Difference Query](https://leetcode.com/problems/maximum-genetic-difference-query/)|[C++](./solutions/1938.%20Maximum%20Genetic%20Difference%20Query.cpp)|804 ms|
 |1963|[ Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)|[C++](./solutions/1963.%20Minimum%20Number%20of%20Swaps%20to%20Make%20the%20String%20Balanced.cpp)|132 ms|
+|1970|[ Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross/)|[C++](./solutions/1970.%20Last%20Day%20Where%20You%20Can%20Still%20Cross.cpp)|727 ms|
 |1976|[ Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)|[C++](./solutions/1976.%20Number%20of%20Ways%20to%20Arrive%20at%20Destination.cpp)|95 ms|
 |1981|[ Minimize the Difference Between Target and Chosen Elements](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/)|[C++](./solutions/1981.%20Minimize%20the%20Difference%20Between%20Target%20and%20Chosen%20Elements.cpp)||
 |1994|[ The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets/)|[C++](./solutions/1994.%20The%20Number%20of%20Good%20Subsets.cpp)|288 ms|
